@@ -108,10 +108,20 @@ button {
 }
 
 #header {
-  padding: 1rem 20rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+}
+
+#header-top, #banner {
+  display: flex;
+  width: 60rem;
+  max-width: 100%;
+}
+
+#header-top {
+  justify-content: space-between;
+  padding-top: 1rem;
 }
 
 #header-links {
@@ -120,22 +130,23 @@ button {
 }
 
 #banner {
-  display: flex;
   justify-content: center;
+  flex: 1;
   padding: 5rem 0;
+  gap: 1rem;
 }
 
 #banner-left {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  flex-basis: 30rem;
-  padding: 1rem 2rem;
+  padding: 1rem 0;
   gap: 0.75rem;
 }
 
 #banner-image {
   display: flex;
-  flex-basis: 30rem;
+  flex: 1;
   justify-content: center;
   align-items: center;
 }
