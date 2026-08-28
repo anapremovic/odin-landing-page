@@ -16,6 +16,10 @@ html {
   --light-subtext: #E5E7EB;
   --dark-text: #1F2937;
   --button-blue: #3882F6;
+  --large-text: 48px;
+  --medium-text: 36px;
+  --logo-text: 24px;
+  --small-text: 18px;
 }
 
 body {
@@ -27,6 +31,8 @@ body {
   margin: 0;
 }
 
+/* browser default overrides */
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -34,13 +40,14 @@ ul {
 }
 
 a {
-  font-size: 18px;
   text-decoration: none;
 }
 
 h1, h2, h3 {
   margin: 0;
 }
+
+/* colours */
 
 #header, #banner, #footer {
   background-color: var(--dark-background);
@@ -70,15 +77,31 @@ button {
   color: var(--light-main-text);
 }
 
+/* font sizes */
+
+#signup-top h1 {
+  font-size: var(--large-text);
+}
+
+#content h2, #quote {
+  font-size: var(--medium-text);
+}
+
+#logo {
+  font-size: var(--logo-text);
+}
+
+#header-links a, #banner p, #banner-image p, .card p, #call-to-action p, #footer p, button, #quote-person {
+  font-size: var(--small-text);
+}
+
+/* flex and spacings */
+
 #header {
   padding: 1rem 20rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-#logo {
-  font-size: 24px;
 }
 
 #header-links {
