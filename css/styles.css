@@ -103,8 +103,12 @@ button {
 /* flex and spacings */
 
 button {
+  font-weight: bold;
   width: fit-content;
-  padding: 0 1rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 #header {
