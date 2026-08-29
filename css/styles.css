@@ -15,6 +15,7 @@ html {
   --light-main-text: #F9FAF8;
   --light-subtext: #E5E7EB;
   --dark-text: #1F2937;
+  --medium-subtext: #6f737b;
   --button-blue: #3882F6;
   --large-text: 48px;
   --medium-text: 36px;
@@ -65,6 +66,10 @@ h1, h2, h3, p {
 
 #content, #card {
   color: var(--dark-text);
+}
+
+.card p {
+  color: var(--medium-subtext);
 }
 
 #quote {
@@ -153,4 +158,34 @@ button {
   flex: 1;
   justify-content: center;
   align-items: center;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 5rem 0;
+}
+
+#cards {
+  display: flex;
+  gap: 3rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 11rem;
+  gap: 1rem;
+}
+
+.card-image {
+  border-style: solid;
+  border-radius: 7px;
+  border-color: var(--button-blue);
+  width: 11rem;
+  height: 11rem;
 }
