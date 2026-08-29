@@ -15,8 +15,9 @@ html {
   --light-main-text: #F9FAF8;
   --light-subtext: #E5E7EB;
   --dark-text: #1F2937;
-  --medium-subtext: #6f737b;
+  --medium-subtext: #6F737B;
   --button-blue: #3882F6;
+  --image-background: #6F737B;
   --large-text: 48px;
   --medium-text: 36px;
   --logo-text: 24px;
@@ -61,7 +62,7 @@ h1, h2, h3, p {
 }
 
 #banner-image {
-  background-color: #6f737b;
+  background-color: var(--image-background);
 }
 
 #content, #card {
