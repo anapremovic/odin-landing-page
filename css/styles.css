@@ -235,3 +235,10 @@ button {
   border-radius: 5px;
   border-color: var(--light-background);
 }
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
