@@ -10,14 +10,10 @@ html {
 }
 
 :root {
-  --dark-background: #1F2937;
-  --light-background: #E5E7EB;
-  --light-main-text: #F9FAF8;
-  --light-subtext: #E5E7EB;
-  --dark-text: #1F2937;
-  --medium-subtext: #6F737B;
-  --button-blue: #3882F6;
-  --image-background: #6F737B;
+  --black: #1F2937;
+  --grey: #6F737B;
+  --white: #E5E7EB;
+  --blue: #3882F6;
   --large-text: 48px;
   --medium-text: 36px;
   --logo-text: 24px;
@@ -53,39 +49,47 @@ h1, h2, h3, p {
 /* colours */
 
 #header, #banner, #footer {
-  background-color: var(--dark-background);
-  color: var(--light-main-text);
+  background-color: var(--black);
+  color: var(--white);
 }
 
 #header-links a, #banner p, #banner-image p, #call-to-action-subtext  {
-  color: var(--light-subtext);
+  color: var(--white);
 }
 
 #banner-image {
-  background-color: var(--image-background);
+  background-color: var(--grey);
 }
 
 #content, #card {
-  color: var(--dark-text);
+  color: var(--black);
 }
 
 .card p {
-  color: var(--medium-subtext);
+  color: var(--grey);
+}
+
+.card-image {
+  border-color: var(--blue);
 }
 
 #quote {
-  background-color: var(--light-background);
-  color: var(--dark-text);
+  background-color: var(--white);
+  color: var(--black);
 }
 
 #signup-bottom {
-  background-color: var(--button-blue);
-  color: var(--light-main-text)
+  background-color: var(--blue);
+  color: var(--white)
 }
 
 button {
-  background-color: var(--button-blue);
-  color: var(--light-main-text);
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+#bottom-signup-botton {
+  border-color: var(--white);
 }
 
 /* font sizes */
@@ -186,7 +190,6 @@ button {
 .card-image {
   border-style: solid;
   border-radius: 7px;
-  border-color: var(--button-blue);
   width: 11rem;
   height: 11rem;
 }
@@ -232,7 +235,6 @@ button {
 #bottom-sign-up-button {
   border-style: solid;
   border-width: 2px;
-  border-color: var(--light-background);
 }
 
 #footer {
