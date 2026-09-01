@@ -12,4 +12,4 @@ Second project as a part of The Odin Project web development course. Dedicated t
 
 ## Credit
 
-- Flavicon: <a href="https://www.flaticon.com/free-icons/paw" title="paw icons" target="_blank" rel="noreferrer">Paw icons created by meaicon - Flaticon</a>
+- Flavicon: [Paw icons created by meaicon - Flaticon](https://www.flaticon.com/free-icons/paw)
