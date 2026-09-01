@@ -173,11 +173,13 @@ button {
   flex-direction: column;
   align-items: center;
   gap: 3rem;
-  padding: 5rem 0;
+  padding: 5rem 1rem;
 }
 
 #cards {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 3rem;
 }
 
@@ -201,8 +203,13 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5rem 30rem;
+  padding: 5rem 1rem;
   gap: 1rem;
+}
+
+#quote-text, #quote-person {
+  max-width: 50rem;
+  width: 100%;
 }
 
 #quote-text {
@@ -211,7 +218,7 @@ button {
 }
 
 #quote-person {
-  align-self: flex-end;
+  text-align: right;
   font-weight: bold;
 }
 
